@@ -1,0 +1,6 @@
+[*]
+tab_width = 8
+indent_style = space
+
+[*.md]
+tab_width = 2

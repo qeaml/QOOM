@@ -1,0 +1,14 @@
+[build]
+cc = "clang"
+bin = "target"
+obj = "target/build"
+src = "source"
+incl = [
+  "include"
+]
+
+[build.c]
+std = "c99"
+
+[doom]
+exe = "qoom"

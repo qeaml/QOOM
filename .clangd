@@ -1,0 +1,25 @@
+CompileFlags:
+  Add: [
+    -I../../include,
+  ]
+---
+If:
+  PathMatch: .*/.*/*.[ch](pp)?
+CompileFlags:
+  Add: [
+    -I../../../include,
+  ]
+---
+If:
+  PathMatch: .*\.[ch]
+CompileFlags:
+  Add: [
+    -xc,
+  ]
+---
+If:
+  PathMatch: .*\.[ch]pp
+CompileFlags:
+  Add: [
+    -xc++,
+  ]
