@@ -10,5 +10,8 @@ incl = [
 [build.c]
 std = "c99"
 
-[doom]
+[qoom]
 exe = "qoom"
+link = [
+  "/subsystem:console"
+]

@@ -1,5 +1,6 @@
 CompileFlags:
   Add: [
+    -D_CRT_SECURE_NO_WARNINGS,
     -I../../include,
   ]
 ---
