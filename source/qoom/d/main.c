@@ -1027,10 +1027,10 @@ void D_DoomMain(void) {
 
   if(gameaction != ga_loadgame) {
     if(autostart || netgame)
-      G_InitNew (startskill, startepisode, startmap);
+      G_InitNew(startskill, startepisode, startmap);
     else
-      D_StartTitle (); // start up intro loop
+      D_StartTitle(); // start up intro loop
   }
 
-  D_DoomLoop (); // never returns
+  D_DoomLoop(); // never returns
 }

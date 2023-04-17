@@ -12,6 +12,9 @@ std = "c99"
 
 [qoom]
 exe = "qoom"
+libs = [
+  "SDL2_net",
+]
 link = [
   "/subsystem:console"
 ]
