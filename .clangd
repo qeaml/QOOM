@@ -1,6 +1,14 @@
 CompileFlags:
   Add: [
     -D_CRT_SECURE_NO_WARNINGS,
+    -Wall,
+    -Wpedantic,
+  ]
+---
+If:
+  PathMatch: .*/*.[ch](pp)?
+CompileFlags:
+  Add: [
     -I../../include,
   ]
 ---
